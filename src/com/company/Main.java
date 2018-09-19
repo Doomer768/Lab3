@@ -23,7 +23,9 @@ public class Main {
         urlScanner.close();
         return contents;
     }
-    
+    public static int count (String[] siteLines) {
+        
+    }
 
     public static void main(String[] args) {
         System.out.println(WebScrapper.urlToString("http://tgftp.nws.noaa.gov/data/raw/fz/fzus53.klot.srf.lot.txt"));
